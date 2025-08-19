@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About â€¢ Olisa Bamidele Gabriel</title>
+    <link rel="stylesheet" href="eliteportfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { theme: { extend: { colors: { primary: '#539dcc' } } } }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Olisa Bamidele Gabriel</div>
+            <div class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primaryNav">
+                <i class='bx bx-menu'></i>
+            </div>
+            <ul class="nav-links" id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="reveal">
+            <div class="hero-content">
+                <span class="accent-pill shimmer"><i class='bx bxs-user'></i> About Me</span>
+                <h1>Get to Know Me</h1>
+                <p class="mt-2">Website Developer,  Graphic Designer,  Stationery Merchant</p>
+            </div>
+        </section>
+
+        <section class="reveal" id="about-details">
+            <div class="container">
+                <div class="about-content" style="gap: 40px; align-items: center;">
+                    <img src="Olisa.jpg" alt="Olisa portrait" width="260" height="260" class="profile-photo animate-float" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&w=520&q=80'">
+                    <div>
+                        <h2 class="mb-4">Who I Am</h2>
+                        <p class="mb-4">
+                            I'm a full-stack developer with a passion for building beautiful, performant, and accessible digital experiences.
+                            With a background in graphic design and experience in stationery merchandising, I combine aesthetics and functionality
+                            to craft solutions that delight users and drive results.
+                        </p>
+                        <ul class="grid md:grid-cols-2 gap-3">
+                            <li class="accent-pill"><i class='bx bx-code-curly'></i> Full-Stack Web Development</li>
+                            <li class="accent-pill"><i class='bx bx-palette'></i> Graphic Design</li>
+                            <li class="accent-pill"><i class='bx bx-devices'></i> Responsive Design</li>
+                            <li class="accent-pill"><i class='bx bx-rocket'></i> Performance & SEO</li>
+                            <li class="accent-pill"><i class='bx bx-rocket'></i> Stationery Merchant</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reveal" id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <p class="mb-2">HTML / CSS / Tailwind</p>
+                        <div class="skills-bar"><span style="width: 92%"></span></div>
+                    </div>
+                    <div>
+                        <p class="mb-2">JavaScript / TypeScript</p>
+                        <div class="skills-bar"><span style="width: 85%"></span></div>
+                    </div>
+                    <div>
+                        <p class="mb-2">React / Next.js</p>
+                        <div class="skills-bar"><span style="width: 80%"></span></div>
+                    </div>
+                    <div>
+                        <p class="mb-2">Node.js / Express</p>
+                        <div class="skills-bar"><span style="width: 78%"></span></div>
+                    </div>
+                    <div>
+                        <p class="mb-2">UI/UX & Figma</p>
+                        <div class="skills-bar"><span style="width: 82%"></span></div>
+                    </div>
+                    <div>
+                        <p class="mb-2">Branding & Print Design</p>
+                        <div class="skills-bar"><span style="width: 88%"></span></div>
+                    </div>
+                    <div>
+                        <p class="mb-2">Stationery Merchant</p>
+                        <div class="skills-bar"><span style="width: 86%"></span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reveal" id="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="grid gap-6">
+                    <div class="bg-[#1e1e1e] p-6 rounded-xl shadow">
+                        <div class="flex items-center gap-3 mb-2"><i class='bx bxl-react text-primary text-2xl'></i><h3 class="m-0">Frontend Developer</h3></div>
+                        <p class="m-0">Built responsive interfaces, component libraries, and optimized web performance for modern SPAs.</p>
+                    </div>
+                    <div class="bg-[#1e1e1e] p-6 rounded-xl shadow">
+                        <div class="flex items-center gap-3 mb-2"><i class='bx bxl-nodejs text-primary text-2xl'></i><h3 class="m-0">Backend Developer</h3></div>
+                        <p class="m-0">Designed REST APIs, authentication flows, and integrated databases focusing on scalability and security.</p>
+                    </div>
+                    <div class="bg-[#1e1e1e] p-6 rounded-xl shadow">
+                        <div class="flex items-center gap-3 mb-2"><i class='bx bx-palette text-primary text-2xl'></i><h3 class="m-0">Graphic Designer</h3></div>
+                        <p class="m-0">Crafted brand identities, marketing assets, and print-ready designs for campaigns and events.</p>
+                    </div>
+                    <div class="bg-[#1e1e1e] p-6 rounded-xl shadow">
+                        <div class="flex items-center gap-3 mb-2"><i class='bx bx-store text-primary text-2xl'></i><h3 class="m-0">Stationery Merchant</h3></div>
+                        <p class="m-0">Managed procurement, branding, and sales of stationery, optimizing catalog and margins.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reveal" id="services">
+            <div class="container">
+                <h2>Services</h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="project-card">
+                        <i class='bx bx-desktop text-3xl text-primary'></i>
+                        <h3>Web Development</h3>
+                        <p>Custom, responsive websites with modern stacks and best practices.</p>
+                    </div>
+                    <div class="project-card">
+                        <i class='bx bx-brush text-3xl text-primary'></i>
+                        <h3>UI/UX & Design</h3>
+                        <p>Elegant, accessible designs that align with brand and user goals.</p>
+                    </div>
+                    <div class="project-card">
+                        <i class='bx bx-bulb text-3xl text-primary'></i>
+                        <h3>Brand Strategy</h3>
+                        <p>Identity, messaging, and visual systems for cohesive branding.</p>
+                    </div>
+                    <div class="project-card">
+                        <i class='bx bx-store text-3xl text-primary'></i>
+                        <h3>Stationery Merchant</h3>
+                        <p>Sourcing, branding, and retail-ready stationery products and supplies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="reveal" id="cta">
+            <div class="container" style="text-align:center;">
+                <h2>Ready to see my work?</h2>
+                <a href="projects.html" class="btn">Explore Projects</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [elite]. All Rights Reserved.</p>
+    </footer>
+
+    <script src="eliteportfolio.js"></script>
+</body>
+</html> 

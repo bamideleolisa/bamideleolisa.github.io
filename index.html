@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="eliteportfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { colors: { primary: '#539dcc' } } }
+        }
+    </script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Olisa Bamidele Gabriel</div>
+            <div class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primaryNav">
+                <i class='bx bx-menu'></i>
+            </div>
+            <ul class="nav-links" id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="reveal">
+            <div class="hero-content">
+                <img class="profile-photo" src="Olisa.jpg" alt="Olisa Bamidele Gabriel" width="160" height="160" onerror="this.onerror=null;this.src='https://placehold.co/320x320/jpg?text=Olisa';">
+                <h1>Hi, I'm Olisa Bamidele Gabriel</h1>
+                <p>A passionate web developer who builds things for the web.<br>I'm also a graphic designer and a stationery merchant</p>
+                <a href="projects.html" class="btn">View My Work</a>
+            </div>
+        </section>
+    <footer>
+        <p>&copy; 2025 [elite]. All Rights Reserved.</p>
+    </footer>
+
+    <script src="eliteportfolio.js"></script>
+</body>
+</html>
